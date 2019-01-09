@@ -59,4 +59,6 @@ exclude:
   - third_party/minimal-mistakes/README.md
   - third_party/minimal-mistakes/screenshot-layouts.png
   - third_party/minimal-mistakes/screenshot.png
+  - INSTALACAO.md
+  - README.md
  
