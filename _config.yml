@@ -13,20 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Divisão de Ciência da Computação - IEC
+name: ITA - IEC
+email: your-email@ita.br
+description: >- # '>-' means to ignore newlines until "baseurl:" see: https://yaml-multiline.info/
+  Divisão de Ciência da Computação do Instituto Tecnológico de Aeronáutica
+  (ITA) do Comando da Aeronáutica, São José dos Campos, São Paulo.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+search: true
+search_provider: google
+google:
+  search_engine_id: 008045032394843368035:wbsj5hu7osg
+  instant_search: true
+
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
 
@@ -41,3 +48,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - third_party/minimal-mistakes/.editorconfig
+  - third_party/minimal-mistakes/.gitattributes
+  - third_party/minimal-mistakes/.github
+  - third_party/minimal-mistakes/docs/
+  - third_party/minimal-mistakes/test/
+  - third_party/minimal-mistakes/CHANGELOG.md
+  - third_party/minimal-mistakes/minimal-mistakes-jekyll.gemspec
+  - third_party/minimal-mistakes/README.md
+  - third_party/minimal-mistakes/screenshot-layouts.png
+  - third_party/minimal-mistakes/screenshot.png
+ 
