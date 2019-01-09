@@ -34,7 +34,7 @@ google:
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "contrast"
+minimal_mistakes_skin: "iec"
 plugins:
   - jekyll-feed
 
