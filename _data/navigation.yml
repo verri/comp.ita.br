@@ -1,6 +1,23 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
+  - title: Home
+    url: /
+  - title: IEC
+    url: /about/
+  - title: Ensino
+    url: /about/
+    submenus:
+      title: Graduação
+      url: /about/
+      title: Pós-Graduação
+      url: /about/
+      title: Extensão
+      url: /about/
+  - title: Organização
+    url: /about/
+  - title: Pessoal
+    url: /about/
+  - title: Pesquisa
+    url: /about/
+  - title: Cooperação
     url: /about/
