@@ -63,3 +63,16 @@ exclude:
   - INSTALACAO.md
   - README.md
  
+# HTML Compression
+# - http://jch.penibelst.de/
+#compress_html:
+#  clippings: all
+#  comments: all
+#  endings: all
+#  ignore:
+#    envs: [development]
+
+# Sass/SCSS
+#sass:
+#  sass_dir: _sass
+#  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
