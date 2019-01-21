@@ -1,11 +1,9 @@
 ---
-layout: single
-title: About
-permalink: /about/
-author_profile: false
+title: Organização
+permalink: /organizacao/
 
-nav_main_selected: IEC # Igual ao title em data/navigation.yml
-nav_main_desc: Sobre Nós # Descrição em amarelo
+nav_main_selected: Organização # Igual ao title em data/navigation.yml
+nav_main_desc: Estrutura Organizacional # Descrição em amarelo
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

@@ -3,9 +3,9 @@ main:
   - title: Home
     url: /
   - title: IEC
-    url: /about/
+    url: /iec/
   - title: Ensino
-    url: /about/
+    url: /ensino/
     submenus:
       title: Graduação
       url: /about/
@@ -14,10 +14,10 @@ main:
       title: Extensão
       url: /about/
   - title: Organização
-    url: /about/
+    url: /organizacao/
   - title: Pessoal
-    url: /about/
+    url: /pessoal/
   - title: Pesquisa
-    url: /about/
+    url: /pesquisa/
   - title: Cooperação
-    url: /about/
+    url: /cooperacao/
