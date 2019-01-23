@@ -13,6 +13,7 @@ minimal_mistakes_skin   : "iec"
 
 # Site Settings
 locale                  : "pt-BR"
+timezone                : America/Sao_Paulo
 title                   : Divisão de Ciência da Computação - IEC
 title_separator         : "-"
 name                    : ITA - IEC
@@ -69,6 +70,11 @@ exclude:
   - third_party/minimal-mistakes/screenshot.png
   - INSTALACAO.md
   - README.md
+  - favicon.zip
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - package.json
 keep_files:
   - .git
   - .svn
@@ -83,23 +89,23 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-#markdown: kramdown
-#highlighter: rouge
-#lsi: false
-#excerpt_separator: "\n\n"
-#incremental: false
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 
 # Markdown Processing
-#kramdown:
-#  input: GFM
-#  hard_wrap: false
-#  auto_ids: true
-#  footnote_nr: 1
-#  entity_output: as_char
-#  toc_levels: 1..6
-#  smart_quotes: lsquo,rsquo,ldquo,rdquo
-#  enable_coderay: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 
 # Sass/SCSS
@@ -130,7 +136,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: splash
       read_time: false
       author_profile: false
       share: false
