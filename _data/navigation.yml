@@ -8,11 +8,11 @@ main:
     url: /ensino/
     submenus:
       - title: Graduação
-        url: /about/
+        url: /ensino/graduacao.html
       - title: Pós-Graduação
-        url: /about/
+        url: /ensino/pos.hmtl
       - title: Extensão
-        url: /about/
+        url: /ensino/extensao.html
   - title: Organização
     url: /organizacao/
   - title: Pessoal
